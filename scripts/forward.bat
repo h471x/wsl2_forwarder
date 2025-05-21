@@ -11,7 +11,7 @@ if %errorlevel% neq 0 (
 setlocal enabledelayedexpansion
 
 :: List of common ports used during CTFs
-set ports=22 80 88 111 445 1337 1080 2049 3000 3001 3390 4444 44055 5000 5445 6047 7474 7687 8012 8080 9050 9999
+set ports=22 80 88 111 445 1337 1080 2049 3000 3001 3002 3389 3390 4444 44055 5000 5445 6047 7474 7687 8012 8080 9050 9999
 
 :: Check if firewall rule exists
 netsh advfirewall firewall show rule name="Winux" >nul 2>&1
